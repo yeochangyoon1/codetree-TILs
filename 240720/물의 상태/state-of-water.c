@@ -8,7 +8,7 @@ int main() {
     {
         printf("ice");
     }
-    else if(n > 100)
+    else if(n >= 100)
     {
         printf("vapor");
     }
