@@ -10,8 +10,7 @@ int main() {
     {
         printf("%d", a - b);
     }
-
-    if(a < b)
+    else if(a <= b)
     {
         printf("%d", b - a);
     }
