@@ -4,8 +4,6 @@
 int main() {
     int score;
     scanf("%d", &score);
-    char s[100];
-    strcpy(s, (score == 100) ? "pass" : "failure");
-    printf("%s", s);
+    printf((score == 100) ? "pass" : "failure");
     return 0;
 }
