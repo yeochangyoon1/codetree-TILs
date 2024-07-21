@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d", &a, &b);
 
     printf("%d ", a);
-    while(a < b)
+    while(a <= b)
     {
         if(a % 2 == 1)
         { 
