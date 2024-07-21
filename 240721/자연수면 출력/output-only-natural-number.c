@@ -11,5 +11,9 @@ int main() {
             printf("%d", a);
         }
     }
+    else
+    {
+        printf("0");
+    }
     return 0;
 }
