@@ -8,7 +8,7 @@ int main() {
     for(int i = 1; i <= n; i++)
     {
         quot /= i;
-        if(quot < 1)
+        if(quot <= 1)
         {
             printf("%d", i);
             break;
