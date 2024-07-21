@@ -16,6 +16,10 @@ int main() {
         {
             a += 3;
         }
+        if(a > b)
+        {
+            break;
+        }
         printf("%d ", a);
     }
     return 0;
