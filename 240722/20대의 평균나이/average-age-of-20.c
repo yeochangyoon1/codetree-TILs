@@ -10,6 +10,11 @@ int main() {
         scanf(" %d", &age);
         if(age >= 30)
         {
+            if(count == 0)
+            {
+                printf("0");
+                break;
+            }
             printf("%.2f", (double)sum / count);
             break;
         }
