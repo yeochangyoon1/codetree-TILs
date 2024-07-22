@@ -8,13 +8,8 @@ int main() {
     {
         int age;
         scanf(" %d", &age);
-        if(age >= 30)
+        if(!(age >= 20 && age <= 29))
         {
-            if(count == 0)
-            {
-                printf("0");
-                break;
-            }
             printf("%.2f", (double)sum / count);
             break;
         }
