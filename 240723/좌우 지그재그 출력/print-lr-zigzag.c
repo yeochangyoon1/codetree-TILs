@@ -17,11 +17,11 @@ int main() {
         }
         else
         {
-            for(int j = i * a; j >= a + 1; j--)
+            for(int j = i * n; j >= a + 1; j--)
             {
                 printf("%d ", j);
             }
-            a = 2 * a + 1;
+            a = i * n + 1;
         }
         printf("\n");
     }
