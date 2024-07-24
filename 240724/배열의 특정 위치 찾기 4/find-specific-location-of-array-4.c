@@ -22,5 +22,14 @@ int main() {
             return 0;
         }
     }
+    for(int j = 0; j < 10; j++)
+            {
+                if(n[j] % 2 == 0)
+                {
+                    count++;
+                    sum += n[j];
+                }
+            }
+            printf("%d %d", count, sum);
     return 0;
 }
