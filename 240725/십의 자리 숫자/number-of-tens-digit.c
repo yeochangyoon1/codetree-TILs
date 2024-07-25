@@ -13,7 +13,7 @@ int main() {
         }
         count[(n[i] / 10) - 1]++;
     }
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 9; i++)
     {
         if(n[i] == 0)
         {
