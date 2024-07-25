@@ -15,10 +15,6 @@ int main() {
     }
     for(int i = 0; i < 9; i++)
     {
-        if(n[i] == 0)
-        {
-            break;
-        }
         printf("%d - %d\n", i + 1, count[i]);
     }
     return 0;
