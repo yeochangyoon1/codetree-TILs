@@ -14,7 +14,7 @@ int main() {
     int max = -1;
     for(int i = 0; i < n; i++)
     {
-        if(count[i] == 1)
+        if(count[number[i] - 1] == 1)
         {
             max = number[i];
             break;
@@ -23,7 +23,7 @@ int main() {
     for(int i = 0; i < n; i++)
     {
         
-        if(count[i] == 1)
+        if(count[number[i] - 1] == 1)
         {
             if(max < number[i])
             {
