@@ -13,19 +13,21 @@ int main() {
     }
     int max[1000];
     int index = n;
+    int index2;
     for(int i = 0; i < n; i++)
     {   
         max[i] = number[0];
-        for(int j = index - 2; j >= 0; j--)
+        for(int j = index - 1; j >= 0; j--)
         {
             if(max[i] <= number[j])
             {
                 max[i] = number[j];
-                index = j + 1;
+                index = j;
+                index2 = j + 1;
             }
         }
-        printf("%d ", index);
-        if(number[max[i]] == 1 || index == 1)
+        printf("%d ", index2);
+        if(number[max[i]] == 1 || index2 == 1)
         {
             break;
         }
