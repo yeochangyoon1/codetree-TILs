@@ -8,7 +8,7 @@ int main() {
     for(int i = 0; i < n; i++)
     {
         a[i][0] = 1;
-        for(int j = 1; j < 5; j++)
+        for(int j = 1; j < n; j++)
         {
             a[i][j] = 0;
         }
