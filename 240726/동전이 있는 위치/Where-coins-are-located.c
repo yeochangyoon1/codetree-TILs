@@ -3,8 +3,8 @@
 int main() {
     // 여기에 코드를 작성해주세요.
     int n[9][9];
-    int r[9];
-    int c[9];
+    int r[81];
+    int c[81];
     int a, b;
     scanf("%d %d", &a, &b);
     for(int i = 0; i < a; i++)
