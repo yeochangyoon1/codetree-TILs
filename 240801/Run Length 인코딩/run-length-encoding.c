@@ -26,6 +26,7 @@ int main() {
     char str2[2001];
     int n2 = 0;
     n1 = 0;
+    str2[n2] = str1[0];
     for(int i = 0; i < len; i++)
     {
         if(str1[i] == str1[i + 1])
