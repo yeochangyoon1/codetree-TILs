@@ -45,7 +45,7 @@ int main() {
             {
                 str2[n2] = count[n1] / 100 + '0';
                 n2++;
-                str2[n2] = count[n1] / 10; + '0';
+                str2[n2] = (count[n1] % 100) / 10 + '0';
                 n2++;
             }
             str2[n2] = count[n1] % 10 + '0';
