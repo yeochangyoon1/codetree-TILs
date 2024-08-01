@@ -36,7 +36,19 @@ int main() {
         else
         {
             n2++;
-            str2[n2] = count[n1] + '0';
+            if(count[n1] >= 10 && count[n1] <= 99)
+            {
+                str2[n2] = count[n1] / 10 + '0';
+                n2++;
+            }
+            if(count[n1] >= 100 && count[n1] <= 999)
+            {
+                str2[n2] = count[n1] / 100 + '0';
+                n2++;
+                str2[n2] = count[n1] / 10; + '0';
+                n2++;
+            }
+            str2[n2] = count[n1] % 10 + '0';
             n1++;
             n2++;
             str2[n2] = str1[i + 1];
