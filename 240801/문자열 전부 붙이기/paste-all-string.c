@@ -5,7 +5,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int n;
     scanf("%d", &n);
-    char str[10][101];
+    char str[10][1001];
     for(int i = 0; i < n; i++)
     {
         scanf(" %s", str[i]);
