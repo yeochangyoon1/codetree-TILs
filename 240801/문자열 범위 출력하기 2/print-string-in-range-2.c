@@ -9,6 +9,10 @@ int main() {
     int len = strlen(str);
     for(int i = len - 1; i >= len - n; i--)
     {
+        if(str[i] == '\0')
+        {
+            break;
+        }
         printf("%c", str[i]);
     }
     return 0;
