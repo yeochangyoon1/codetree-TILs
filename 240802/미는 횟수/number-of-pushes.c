@@ -22,6 +22,11 @@ int main() {
         }
         str1[0] = temp;
         n++; 
+        if(n > len)
+        {
+            printf("-1");
+            break;
+        }
     }
     return 0;
 }
